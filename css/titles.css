@@ -1,0 +1,87 @@
+.titleAbout, .titleSkills, .titleProjects, .titleContact {
+    position: relative;
+  }
+  
+  .titleAbout::before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    bottom: -4px;
+    left: 0;
+    border: 2px solid var(--light);
+    border-radius: 10px;
+  }
+  .titleSkills::before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    bottom: -4px;
+    left: 0;
+    border: 2px solid var(--light);
+    border-radius: 10px;
+  }
+  .titleProjects::before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    bottom: -4px;
+    left: 0;
+    border: 2px solid var(--light);
+    border-radius: 10px;
+  }
+  .titleContact::before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    bottom: -4px;
+    left: 0;
+    border: 2px solid var(--light);
+    border-radius: 10px;
+  }
+  
+
+
+  .titleAbout::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    bottom: 0;
+    left: 15px;
+    border-radius: 2px;
+    background: var(--light);
+  }
+  .titleSkills::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    bottom: 0;
+    left: 15px;
+    border-radius: 2px;
+    background: var(--light);
+  }
+  .titleProjects::after{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    bottom: 0;
+    left: 15px;
+    border-radius: 2px;
+    background: var(--light);
+  }
+  .titleContact::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    bottom: 0;
+    left: 15px;
+    border-radius: 2px;
+    background: var(--light);
+  }

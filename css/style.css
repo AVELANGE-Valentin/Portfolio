@@ -1,4 +1,6 @@
 /********** Template CSS **********/
+@import 'titles.css';
+
 :root {
   --primary: #00B87B;
   --secondary: #292929;
@@ -113,32 +115,6 @@
   }
 }
 
-.title {
-  position: relative;
-}
-
-.title::before {
-  position: absolute;
-  content: "";
-  width: 10px;
-  height: 10px;
-  bottom: -4px;
-  left: 0;
-  border: 2px solid var(--light);
-  border-radius: 10px;
-}
-
-.title::after {
-  position: absolute;
-  content: "";
-  width: 50px;
-  height: 2px;
-  bottom: 0;
-  left: 15px;
-  border-radius: 2px;
-  background: var(--light);
-}
-
 .progress {
   height: 5px;
 }
@@ -164,17 +140,13 @@
   color: var(--secondary);
 }
 
-a img {
+.service-item a img {
   padding-right: 10px;
   width: 30px;
 }
 
-a:hover {
+.service-item a:hover {
   background-color: var(--primary);
-}
-
-.NotRight {
-  color: rgb(241, 53, 53);
 }
 
 .name {color: #00B87B;}
@@ -183,3 +155,16 @@ a:hover {
 .phone {color: #00B87B;}
 .email {color: #00B87B;}
 .address {color: #00B87B;}
+
+.heyalinkNotRight {color: rgb(241, 53, 53);}
+.sinistresNotRight {color: rgb(241, 53, 53);}
+.onBoardingNotRight {color: rgb(241, 53, 53);}
+
+.dlResume {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.d-flex .btn:hover {
+  background-color: var(--primary);
+}

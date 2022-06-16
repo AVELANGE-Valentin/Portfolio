@@ -28,9 +28,9 @@
         var typed_strings = $('.typed-text').text();
         var typed = new Typed('.typed-text-output', {
             strings: typed_strings.split(', '),
-            typeSpeed: 100,
+            typeSpeed: 80,
             backSpeed: 20,
-            smartBackspace: false,
+            smartBackspace: true,
             loop: true
         });
     }
@@ -67,17 +67,6 @@
 
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
-
-
-    // Testimonials carousel
-    $(".testimonial-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1500,
-        dots: true,
-        loop: true,
-        items: 1
-    });
-    
     
     // Back to top button
     $(window).scroll(function () {
