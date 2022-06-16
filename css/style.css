@@ -176,3 +176,10 @@ a:hover {
 .NotRight {
   color: rgb(241, 53, 53);
 }
+
+.name {color: #00B87B;}
+.birthday {color: #00B87B;}
+.degree {color: #00B87B;}
+.phone {color: #00B87B;}
+.email {color: #00B87B;}
+.address {color: #00B87B;}

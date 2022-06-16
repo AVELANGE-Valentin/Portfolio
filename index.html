@@ -32,14 +32,19 @@
     </head>
 
     <body>
+        
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        
             <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
                 <span class="sr-only">Loading...</span>
             </div>
         </div>
         <!-- Spinner End -->
-
+<div class="langWrap">
+    <a href="#" language='english' class="active">EN</a>
+    <a href="#" language='french'>FR</a>
+</div>
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-4 sticky-lg-top vh-100">
@@ -63,31 +68,50 @@
                 <div class="col-lg-8">
                     <!-- About Start -->
                     <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
-                        <h1 class="title pb-3 mb-5">About Me</h1>
-                        <p>Hello, I am AVELANGE Valentin, currently studying IT (Information Technology) and Computer Science in the 
+                        <h1 class="title-about pb-3 mb-5">About Me</h1>
+                        <p class="about">
+                            Hello, I am AVELANGE Valentin, currently studying IT (Information Technology) and Computer Science in the 
                             graduated engineering school of the CESI of Reims. I am passionate by IT and I am always looking for new things to learn.
                             I like to programm great and beatiful websites and applications.
                             Thanks to my school and my curiosity, I developp my skills in the field of web development and projects management.
                             I am interested in web developement and most particularely in front-end developement.
                         </p>
+
                         <div class="row mb-4">
                             <div class="col-sm-6 py-1">
-                                <span class="fw-medium text-primary">Name:</span> AVELANGE Valentin
+                                <span class="fw-medium" style="display: flex;">
+                                    <p class="name">Name:</p>
+                                    <p>AVELANGE Valentin</p></span> 
                             </div>
+
                             <div class="col-sm-6 py-1">
-                                <span class="fw-medium text-primary">Birthday:</span> 18 October 2001
+                                <span class="fw-medium" style="display: flex;">
+                                    <p class="birthday">Birthday:</p>
+                                    <p class="birthdate">18th October 2001</p></span> 
                             </div>
+
                             <div class="col-sm-6 py-1">
-                                <span class="fw-medium text-primary">Degree:</span> 3rd year studying in IT Master
+                                <span class="fw-medium" style="display: flex;">
+                                    <p class="degree">Degree:</p>
+                                    <p class="study">3rd year studying in IT Master</p></span> 
                             </div>
+
                             <div class="col-sm-6 py-1">
-                                <span class="fw-medium text-primary">Phone:</span> +33 6 29 21 36 65
+                                <span class="fw-medium" style="display: flex;">
+                                    <p class="phone">Phone:</p>
+                                    <p>+33 6 29 21 36 65</p></span> 
                             </div>
+
                             <div class="col-sm-6 py-1">
-                                <span class="fw-medium text-primary">Email:</span> valentin.avelange@viacesi.fr
+                                <span class="fw-medium" style="display: flex;">
+                                    <p class="email">Email:</p>
+                                    <p>valentin.avelange@viacesi.fr</p></span> 
                             </div>
+
                             <div class="col-sm-6 py-1">
-                                <span class="fw-medium text-primary">Address:</span> 51100 Reims, France
+                                <span class="fw-medium" style="display: flex;">
+                                    <p class="address">Address:</p>
+                                    <p>51100 Reims, France</p></span> 
                             </div>
                         </div>
                         
@@ -478,5 +502,6 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        <script src="js/traduction.js"></script>
     </body>
 </html>
