@@ -17,6 +17,8 @@ const langEl = document.querySelector('.langWrap');
         const studyEL = document.querySelector('.study');
         const phoneEL = document.querySelector('.phone');
         const addressEL = document.querySelector('.address');
+
+        const managmentEL = document.querySelector('.managment');
         
         const persoProjectEL = document.querySelector('.persoProject');
         const persoProject2EL = document.querySelector('.persoProject2');
@@ -64,6 +66,8 @@ const langEl = document.querySelector('.langWrap');
                 phoneEL.textContent = data[attr].phone;
                 addressEL.textContent = data[attr].address;
 
+                managmentEL.textContent = data[attr].managment;
+
                 persoProjectEL.textContent = data[attr].persoProject;
                 persoProject2EL.textContent = data[attr].persoProject2;
                 proProjectEL.textContent = data[attr].proProject;
@@ -109,6 +113,8 @@ const langEl = document.querySelector('.langWrap');
                 "phone": "Phone:",
                 "address": "Address:",
 
+                "managment": "Project Managment",
+
                 "persoProject": "Personal project",
                 "persoProject2": "Personal project",
                 "proProject": "Professional project",
@@ -151,6 +157,8 @@ const langEl = document.querySelector('.langWrap');
                 "study": "3ème année d'école d'ingénieurs",
                 "phone": "Téléphone:",
                 "address": "Adresse:",
+
+                "managment": "Gestion de Projets",
 
                 "persoProject": "Projet personnel",
                 "persoProject2": "Projet personnel",
