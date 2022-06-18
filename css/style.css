@@ -36,8 +36,8 @@
 }
 
 .btn-square {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 
 .btn-sm-square {
@@ -46,8 +46,8 @@
 }
 
 .btn-lg-square {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
 }
 
 .btn-square,
@@ -66,33 +66,6 @@
 .typed-cursor {
   font-size: 25px;
   color: var(--light);
-}
-
-.back-to-top {
-  position: fixed;
-  display: none;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  line-height: 1;
-  font-size: 30px;
-  right: 30px;
-  bottom: 30px;
-  transition: background 0.5s;
-  z-index: 11;
-}
-
-.back-to-top i {
-  color: var(--primary);
-}
-
-.back-to-top i:hover {
-  color: var(--dark);
-}
-
-.back-to-top {
-  -webkit-animation: action 1s infinite alternate;
-  animation: action 1s infinite alternate;
 }
 
 @-webkit-keyframes action {
@@ -176,7 +149,7 @@
   position: relative;
   display: inline-block;
   width: 120px;
-  padding-top: 200px;
+  padding-top: 225px ;
 }
 
 .dropdown-content {
@@ -197,15 +170,70 @@
 
 .dropdown-content a:hover {
   background-color: #E3E5ED;
-
+  transition-duration: 0.3s;
 }
 
 .langWrap:hover .dropdown-content {
   display: block;
-
 }
 
 .langWrap:hover .dropbtn {
   background-color: #00B87B;
+  transition-duration: 0.5s;
+}
+
+/*
+.sideNav ul{
+  list-style: none;
+  display: inline;
+}
+
+.sideNav ul li {
+  padding: 9px;
+}
+
+.sideNav img {
+  height: 25px;
+}
+
+.sideNav img:hover {
+  height: 31px;
+  transition-duration: 0.3s;
+}
+
+#tooltip {
+  position: relative;
 
 }
+
+#tooltipText {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  background-color: black;
+  white-space: nowrap;
+  padding: 10px 15px;
+  border-radius: 7px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+#tooltipText:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+  border: 15px solid;
+  border-color: #000 #0000 #0000 #0000;
+}
+
+#tooltip:hover #tooltipText {
+  top: -130%;
+  visibility: visible;
+  opacity: 1;
+}
+*/
+
