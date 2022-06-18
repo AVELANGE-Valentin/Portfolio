@@ -3,6 +3,8 @@ const langEl = document.querySelector('.langWrap');
         const typedTextEL = document.querySelector('.typedText');
         const dlResumeEL = document.querySelector('.dlResume');
 
+        const dropbtnEL = document.querySelector('.dropbtn');
+
         const titleAboutEL = document.querySelector('.titleAbout');
         const titleSkills = document.querySelector('.titleSkills');
         const titleProjects = document.querySelector('.titleProjects');
@@ -52,6 +54,9 @@ const langEl = document.querySelector('.langWrap');
                 typedTextEL.innerHTML = data[attr].typedText;
                 dlResumeEL.innerHTML = data[attr].dlResume;
 
+
+                dropbtnEL.innerHTML = data[attr].dropbtn;
+
                 titleAboutEL.innerHTML = data[attr].titleAbout;
                 titleSkills.innerHTML = data[attr].titleSkills;
                 titleProjects.innerHTML = data[attr].titleProjects;
@@ -98,6 +103,13 @@ const langEl = document.querySelector('.langWrap');
                 "typedText" : "IT Master Student, Web Developer, Computer Science Master Student, Front End Developer, Apps Developer",
                 "dlResume": "Download My Resume",
 
+                "sideAbout": "About Me",    
+                "sideSkills": "My Skills",
+                "sideProjects": "My Projects",
+                "sideContact": "Contact Me",
+
+                "dropbtn": "Language",
+
                 "titleAbout": "About Me",
                 "titleSkills": "My Skills",
                 "titleProjects": "My Projects",
@@ -143,10 +155,17 @@ const langEl = document.querySelector('.langWrap');
                 "typedText" : "Etudiant en informatique, Développeur web, Développeur Front-End, Développeur d'applications",
                 "dlResume": "Télécharger mon CV",
 
+                "sideAbout": "À Propos de moi",
+                "sideSkills": "Mes Compétences",
+                "sideProjects": "Mes Projets",
+                "sideContact": "Contactez-moi",
+
+                "dropbtn": "Langue",
+
                 "titleAbout": "À propos de moi",
                 "titleSkills": "Mes Compétences",
                 "titleProjects": "Mes Projets",
-                "titleContact": "Me Contacter",
+                "titleContact": "Contactez-Moi",
 
                 "title-about": "À propos de moi",
 			    "about": "Bonjour, je suis Valentin AVELANGE, actuellement étudiant en informatique à l'école d'ingénieurs du CESI de Reims. Je suis passionné par l'informatique et je suis toujours à la recherche de nouvelles choses à apprendre. J'aime programmer des sites et des applications avec soins. Grâce à mon école et à ma curiosité, je développe mes compétences dans le domaine du développement web et de la gestion de projets. Je suis interessé par le développement web et plus particulièrement par le développement Front-End.",
