@@ -21,6 +21,7 @@ const langEl = document.querySelector('.langWrap');
         const addressEL = document.querySelector('.address');
 
         const managmentEL = document.querySelector('.managment');
+        const teamworkEL = document.querySelector('.teamwork');
         
         const persoProjectEL = document.querySelector('.persoProject');
         const persoProject2EL = document.querySelector('.persoProject2');
@@ -72,6 +73,7 @@ const langEl = document.querySelector('.langWrap');
                 addressEL.textContent = data[attr].address;
 
                 managmentEL.textContent = data[attr].managment;
+                teamworkEL.textContent = data[attr].teamwork;
 
                 persoProjectEL.textContent = data[attr].persoProject;
                 persoProject2EL.textContent = data[attr].persoProject2;
@@ -126,6 +128,7 @@ const langEl = document.querySelector('.langWrap');
                 "address": "Address:",
 
                 "managment": "Project Managment",
+                "teamwork": "Teamwork",
 
                 "persoProject": "Personal project",
                 "persoProject2": "Personal project",
@@ -178,6 +181,7 @@ const langEl = document.querySelector('.langWrap');
                 "address": "Adresse:",
 
                 "managment": "Gestion de Projets",
+                "teamwork": "Travail en équipe",
 
                 "persoProject": "Projet personnel",
                 "persoProject2": "Projet personnel",

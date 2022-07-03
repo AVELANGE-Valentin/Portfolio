@@ -143,6 +143,7 @@
   font-size: 16px;
   border: none;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 .langWrap {
@@ -150,6 +151,7 @@
   display: inline-block;
   width: 120px;
   padding-top: 219px ;
+  transition: 0.3s;
 }
 
 .dropdown-content {
@@ -237,3 +239,71 @@
 }
 */
 
+.row-skills {
+  text-align: center;
+}
+
+.column-skills-5 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+}
+.column-skills-5 img, .column-skills-4 img {
+  width: 50%;
+  padding-top: 20px;
+  transition: 0.2s;
+}
+
+.column-skills-5 img:hover, .column-skills-4 img:hover {
+  width: 65%;
+  padding-top: 5px;
+  transition: 0.2s;
+}
+
+
+.column-skills-4 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 40px;
+}
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h5 {
+  margin-top: 10px;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+#html:hover {filter: drop-shadow(0 0 25px #fc490b);}
+#css:hover {filter: drop-shadow(0 0 25px #b7e0f6);}
+#js:hover {filter: drop-shadow(0 0 25px #ffdf00);}
+#react:hover {filter: drop-shadow(0 0 25px #80deea);}
+#angular:hover {filter: drop-shadow(0 0 25px #b71c1c);}
+#python:hover {filter: drop-shadow(0 0 25px #ffc107);}
+#php:hover {filter: drop-shadow(0 0 25px #dcd5f2);}
+#c:hover {filter: drop-shadow(0 0 25px #00589d);}
+#cpp:hover {filter: drop-shadow(0 0 25px #0097a7);}
+#csharp:hover {filter: drop-shadow(0 0 25px #546e7a);}
+#laravel:hover {filter: drop-shadow(0 0 25px #ff2d20);}
+#networks:hover {filter: drop-shadow(0 0 25px #5aaae7);}
+#sql:hover {filter: drop-shadow(0 0 25px #ffd54f);}
+#talend:hover {filter: drop-shadow(0 0 25px #aeff00);}
+#powerBi:hover {filter: drop-shadow(0 0 25px #f2c616);}
+#powerapps:hover {filter: drop-shadow(0 0 25px #dc77bf);}
+#figma:hover {filter: drop-shadow(0 0 25px #66bb6a);}
+#project:hover {filter: drop-shadow(0 0 25px #42a5f5);}
+#teamwork:hover {filter: drop-shadow(0 0 25px #fc5b6f);}
