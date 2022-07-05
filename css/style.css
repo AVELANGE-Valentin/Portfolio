@@ -159,8 +159,8 @@
 .langWrap {
   position: relative;
   display: inline-block;
+  padding-top: 20px;
   width: 120px;
-  padding-top: 219px ;
   transition: 0.3s;
 }
 
