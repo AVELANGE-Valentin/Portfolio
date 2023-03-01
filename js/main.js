@@ -82,3 +82,63 @@
     });
 })(jQuery);
 
+
+var modalOnVaOu = document.getElementById("onVaOuModal");
+var btnOnVaOu = document.getElementById("onVaOu");
+
+var modalHeyalink = document.getElementById("heyalinkModal");
+var btnHeyalink = document.getElementById("heyalink");
+
+var modalEasysave = document.getElementById("easysaveModal");
+var btnEasysave = document.getElementById("easysave");
+
+var modalSportDehors = document.getElementById("sportDehorsModal");
+var btnSportDehors = document.getElementById("sportDehors");
+
+var modalSinistres = document.getElementById("sinistresModal");
+var btnSinistres = document.getElementById("sinistres");
+
+var modalOnBoarding = document.getElementById("onBoardingModal");
+var btnOnBoarding = document.getElementById("onBoarding");
+
+var span = document.getElementsByClassName("close")[0];
+
+btnOnVaOu.onclick = function() {
+    modalOnVaOu.style.display = "block";
+}
+btnHeyalink.onclick = function() {
+    modalHeyalink.style.display = "block";
+}
+btnEasysave.onclick = function() {
+    modalEasysave.style.display = "block";
+}
+btnSportDehors.onclick = function() {
+    modalSportDehors.style.display = "block";
+}
+btnSinistres.onclick = function() {
+    modalSinistres.style.display = "block";
+}
+btnOnBoarding.onclick = function() {
+    modalOnBoarding.style.display = "block";
+}
+
+window.onclick = function(event) {
+  if (event.target == modalOnVaOu) {
+    modalOnVaOu.style.display = "none";
+  }
+  if (event.target == modalHeyalink) {
+    modalHeyalink.style.display = "none";
+  }
+  if (event.target == modalEasysave) {
+    modalEasysave.style.display = "none";
+  }
+  if (event.target == modalSportDehors) {
+    modalSportDehors.style.display = "none";
+  }
+  if (event.target == modalSinistres) {
+    modalSinistres.style.display = "none";
+  }
+  if (event.target == modalOnBoarding) {
+    modalOnBoarding.style.display = "none";
+  }
+}

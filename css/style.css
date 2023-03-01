@@ -102,6 +102,8 @@
   text-align: center;
   background: var(--secondary);
   box-shadow: #292929 0px 0px 10px;
+  cursor: pointer;
+  height: 300px;
 }
 
 .service-item i {
@@ -119,13 +121,10 @@
 }
 
 .proj-icon {
-  width:200px;
-  transition: .3s;
+  width:450px;
 }
-
-.proj-icon:hover {
-  width: 450px;
-  transition: .3s;
+.proj-iconPrev{
+  width:200px;
 }
 
 .service-item a:hover {
@@ -142,7 +141,7 @@
   padding-bottom: 5px;
 }
 
-.d-flex .btn:hover {
+.btn:hover {
   background-color: var(--primary);
 }
 
@@ -194,61 +193,6 @@
   transition-duration: 0.5s;
 }
 
-/*
-.sideNav ul{
-  list-style: none;
-  display: inline;
-}
-
-.sideNav ul li {
-  padding: 9px;
-}
-
-.sideNav img {
-  height: 25px;
-}
-
-.sideNav img:hover {
-  height: 31px;
-  transition-duration: 0.3s;
-}
-
-#tooltip {
-  position: relative;
-
-}
-
-#tooltipText {
-  position: absolute;
-  left: 50%;
-  top: 0;
-  transform: translateX(-50%);
-  background-color: black;
-  white-space: nowrap;
-  padding: 10px 15px;
-  border-radius: 7px;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 0.5s;
-}
-
-#tooltipText:before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 100%;
-  transform: translateX(-50%);
-  border: 15px solid;
-  border-color: #000 #0000 #0000 #0000;
-}
-
-#tooltip:hover #tooltipText {
-  top: -130%;
-  visibility: visible;
-  opacity: 1;
-}
-*/
-
 .row-skills {
   text-align: center;
 }
@@ -296,6 +240,51 @@ h5 {
   .column {
     width: 100%;
   }
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: -50px;
+  width: 100%; /* Full width */
+  height: 150%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  z-index: 9999;
+}
+
+/* Modal Content */
+.modal-content {
+  border-radius: 6px;
+  background: var(--secondary);
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  align-items: center;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.projectCard{
+  width: 50%;
 }
 
 #html:hover {filter: drop-shadow(0 0 25px #fc490b);}

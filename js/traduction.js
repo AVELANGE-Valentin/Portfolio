@@ -123,7 +123,7 @@ const langEl = document.querySelector('.langWrap');
                 "birthday": "Birthday: ",
                 "birthdate": " 18th October 2001",
                 "degree": "Degree: ",
-                "study": "3rd year studying in IT Master",
+                "study": "4th year studying in IT Master",
                 "phone": "Phone:",
                 "address": "Address:",
 
@@ -176,7 +176,7 @@ const langEl = document.querySelector('.langWrap');
                 "birthday": "Date de Naissance: ",
                 "birthdate": " 18 Octobre 2001",
                 "degree": "Niveau d'étude: ",
-                "study": "3ème année d'école d'ingénieurs",
+                "study": "4ème année d'école d'ingénieurs",
                 "phone": "Téléphone:",
                 "address": "Adresse:",
 
