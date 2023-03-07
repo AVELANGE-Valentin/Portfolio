@@ -104,6 +104,7 @@
   box-shadow: #292929 0px 0px 10px;
   cursor: pointer;
   height: 300px;
+  transition: 0.5s;
 }
 
 .service-item i {
@@ -169,14 +170,15 @@
   background-color: #f9f9f9;
   min-width: 60px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  left: -4.5px;
 }
 
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 12px;
   text-decoration: none;
   display: block;
-
+  width: 130px;
 }
 
 .dropdown-content a:hover {
@@ -215,6 +217,10 @@
   transition: 0.2s;
 }
 
+.service-item:hover{
+  background-color: #1f1f1f;
+  transition: 0.5s;
+}
 
 .column-skills-4 {
   display: inline-block;
@@ -287,6 +293,11 @@ h5 {
   width: 50%;
 }
 
+.infos {
+  font-weight: 600;
+}
+
+#symfony:hover {filter: drop-shadow(0 0 25px #141414);}
 #html:hover {filter: drop-shadow(0 0 25px #fc490b);}
 #css:hover {filter: drop-shadow(0 0 25px #b7e0f6);}
 #js:hover {filter: drop-shadow(0 0 25px #ffdf00);}
@@ -303,6 +314,8 @@ h5 {
 #talend:hover {filter: drop-shadow(0 0 25px #aeff00);}
 #powerBi:hover {filter: drop-shadow(0 0 25px #f2c616);}
 #powerapps:hover {filter: drop-shadow(0 0 25px #dc77bf);}
+#powerautomate:hover {filter: drop-shadow(0 0 25px #3285f1);}
+#github:hover {filter: drop-shadow(0 0 25px #e2e2e2);}
 #figma:hover {filter: drop-shadow(0 0 25px #66bb6a);}
 #project:hover {filter: drop-shadow(0 0 25px #42a5f5);}
 #teamwork:hover {filter: drop-shadow(0 0 25px #fc5b6f);}
